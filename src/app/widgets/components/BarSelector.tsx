@@ -13,7 +13,7 @@ const BarSelector: React.FC = () => {
     <div className="flex">
       <div className="items-center justify-center">
         {[5, 4, 3, 2, 1].map((value) => {
-          let _width = value * 40;
+          let _width = 40 + (value * 20);
           return (
             <div
               onClick={() => handleBarClick(value)}
