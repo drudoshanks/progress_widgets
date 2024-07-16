@@ -5,11 +5,11 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import Slider from "@mui/material/Slider";
 
-const CircularSlider = () => {
-  const [value, setValue] = useState(0);
+const CircularSlider: React.FC = () => {
+  const [value, setValue] = useState<number>(0);
 
-  const handleSliderChange = (event, newValue) => {
-    setValue(newValue);
+  const handleSliderChange = (event: Event, newValue: number | number[]) => {
+    setValue(newValue as number);
   };
 
   return (
