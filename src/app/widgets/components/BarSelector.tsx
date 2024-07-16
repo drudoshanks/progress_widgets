@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import {color} from '@/app/widgets/components/Constants'
 
 const BarSelector: React.FC = () => {
   const [selectedBar, setSelectedBar] = useState<number>(1);
@@ -20,7 +21,7 @@ const BarSelector: React.FC = () => {
               style={{
                 width: _width,
                 height: 20,
-                backgroundColor: selectedBar >= value ? "#87CDF6" : "white",
+                backgroundColor: selectedBar >= value ? color?.onSelect : color?.onUnSelect,
               }}
               key={value}
             />
