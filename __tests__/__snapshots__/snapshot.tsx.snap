@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BarSelector 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div
+      class="items-center justify-center"
+    >
+      <div
+        class="m-2 rounded-lg mx-auto"
+        data-testid="bar-5"
+        style="width: 140px; height: 20px; cursor: pointer; background-color: rgb(209, 213, 219);"
+      />
+      <div
+        class="m-2 rounded-lg mx-auto"
+        data-testid="bar-4"
+        style="width: 120px; height: 20px; cursor: pointer; background-color: rgb(209, 213, 219);"
+      />
+      <div
+        class="m-2 rounded-lg mx-auto"
+        data-testid="bar-3"
+        style="width: 100px; height: 20px; cursor: pointer; background-color: rgb(209, 213, 219);"
+      />
+      <div
+        class="m-2 rounded-lg mx-auto"
+        data-testid="bar-2"
+        style="width: 80px; height: 20px; cursor: pointer; background-color: rgb(209, 213, 219);"
+      />
+      <div
+        class="m-2 rounded-lg mx-auto"
+        data-testid="bar-1"
+        style="width: 60px; height: 20px; cursor: pointer; background-color: rgb(52, 211, 153);"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders CircularSlider 1`] = `
+<div>
+  <div
+    class="flex justify-center items-center"
+  >
+    <div
+      class="bg-white p-8 rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-300"
+    >
+      <svg
+        class="CircularProgressbar "
+        data-test-id="CircularProgressbar"
+        viewBox="0 0 100 100"
+      >
+        <path
+          class="CircularProgressbar-trail"
+          d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+          fill-opacity="0"
+          stroke-width="8"
+          style="stroke-dasharray: 289.02652413026095px 289.02652413026095px; stroke-dashoffset: 0px;"
+        />
+        <path
+          class="CircularProgressbar-path"
+          d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+          fill-opacity="0"
+          stroke-width="8"
+          style="stroke-dasharray: 289.02652413026095px 289.02652413026095px; stroke-dashoffset: 289.02652413026095px;"
+        />
+        <text
+          class="CircularProgressbar-text"
+          x="50"
+          y="50"
+        >
+          0
+        </text>
+      </svg>
+      <span
+        class="MuiSlider-root MuiSlider-colorPrimary MuiSlider-sizeMedium css-188mx6n-MuiSlider-root"
+      >
+        <span
+          class="MuiSlider-rail css-7o8aqz-MuiSlider-rail"
+        />
+        <span
+          class="MuiSlider-track css-ttgsjq-MuiSlider-track"
+          style="left: 0%; width: 0%;"
+        />
+        <span
+          class="MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorPrimary css-cp2j25-MuiSlider-thumb"
+          data-index="0"
+          style="left: 0%;"
+        >
+          <input
+            aria-labelledby="continuous-slider"
+            aria-orientation="horizontal"
+            aria-valuemax="10"
+            aria-valuemin="0"
+            aria-valuenow="0"
+            data-index="0"
+            max="10"
+            min="0"
+            step="1"
+            style="border: 0px; height: 100%; margin: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 100%; direction: ltr;"
+            type="range"
+            value="0"
+          />
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;

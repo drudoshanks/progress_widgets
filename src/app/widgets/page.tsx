@@ -4,17 +4,14 @@ import BarSelector from "@/app/widgets/components/BarSelector";
 
 export default function widgets() {
   return (
-    <main className="flex min-h-screen flex-row items-center justify-around p-24">
+    <div className="flex min-h-screen flex-row items-center justify-around p-24">
       <div>
-        <h1>Mental Health App</h1>
-        <br />
-        <br />
+        <h1 className='mb-6 font-bold text-[1.3rem]'>Mental Health App</h1>
         <CircularSlider />
-        <br />
       </div>
       <div>
         <BarSelector />
       </div>
-    </main>
+    </div>
   );
 }

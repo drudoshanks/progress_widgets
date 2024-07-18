@@ -18,12 +18,13 @@ const CircularSlider: React.FC = () => {
         <CircularProgressbar
           value={value * 10}
           text={`${value}`}
-          styles={buildStyles({
-            textSize: "16px",
-            pathColor: `rgba(62, 152, 199, ${value / 10})`,
-            textColor: "#f88",
-            trailColor: "#d6d6d6",
-          })}
+          className=''
+        // styles={buildStyles({
+        //   textSize: "16px",
+        //   pathColor: `rgba(62, 152, 199, ${value / 10})`,
+        //   textColor: "#f88",
+        //   trailColor: "#d6d6d6",
+        // })}
         />
         <Slider
           value={value}
