@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import Slider from "@mui/material/Slider";
 
@@ -19,12 +19,6 @@ const CircularSlider: React.FC = () => {
           value={value * 10}
           text={`${value}`}
           className=''
-        // styles={buildStyles({
-        //   textSize: "16px",
-        //   pathColor: `rgba(62, 152, 199, ${value / 10})`,
-        //   textColor: "#f88",
-        //   trailColor: "#d6d6d6",
-        // })}
         />
         <Slider
           value={value}

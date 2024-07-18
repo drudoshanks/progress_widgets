@@ -6,7 +6,6 @@ import '@testing-library/jest-dom';
 import * as React from 'react';
 import { render, screen } from '@testing-library/react';
 import CircularSlider from '@/app/widgets/components/CircularSlider';
-// import CircularSlider from '../src/app/widgets/components/CircularSlider';
 
 
 describe("CircularSlider", () => {

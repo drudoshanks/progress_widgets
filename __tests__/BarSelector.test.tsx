@@ -5,17 +5,6 @@
 import * as React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import BarSelector from '@/app/widgets/components/BarSelector';
-// import BarSelector from '../src/app/widgets/components/BarSelector';
-
-
-// describe("BarSelector", () => {
-//     it("renders BarSelector and allows bar selection", () => {
-//         render(<BarSelector />);
-//         console.log(screen.debug());
-//         const buttonElement = screen.getByText(/1/i);
-//         expect(buttonElement).toBeInTheDocument();
-//     });
-// });
 
 
 describe('BarSelector', () => {
